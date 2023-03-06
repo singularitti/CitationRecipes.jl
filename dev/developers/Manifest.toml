@@ -44,7 +44,7 @@ version = "3.3.6"
 
 [[deps.CitationRecipes]]
 deps = ["Bibliography", "RecipesBase"]
-git-tree-sha1 = "51318641ec9590b8339c029149260cfa8b0607d2"
+git-tree-sha1 = "d3397f266e3752a809cb6e0d3f5d663aabc57390"
 repo-rev = "main"
 repo-url = "https://github.com/singularitti/CitationRecipes.jl"
 uuid = "7b9303d0-5a41-456c-9cce-f08875f1ccaf"
