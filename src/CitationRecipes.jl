@@ -20,7 +20,7 @@ using RecipesBase: AbstractPlot, @recipe, @series, @shorthands
 end
 @shorthands experimentaldata
 
-@recipe function f(::Type{Val{:theoretical}}, plt::AbstractPlot; ref=nothing, n_authors=1)
+@recipe function f(::Type{Val{:prediction}}, plt::AbstractPlot; ref=nothing, n_authors=1)
     label = if ref isa Entry
         join((truncate_authors(ref, n_authors), xyear(ref)), ", ")
     else
@@ -30,7 +30,7 @@ end
     label --> label
     return ()
 end
-@shorthands theoretical
+@shorthands prediction
 
 function truncate_authors(ref::Entry, n::Integer)
     authors = Iterators.take(ref.authors, n)
