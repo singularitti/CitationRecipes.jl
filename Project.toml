@@ -1,0 +1,13 @@
+name = "CitationRecipes"
+uuid = "7b9303d0-5a41-456c-9cce-f08875f1ccaf"
+authors = ["singularitti <singularitti@outlook.com> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
