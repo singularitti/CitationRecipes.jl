@@ -3,7 +3,9 @@ module CitationRecipes
 using Bibliography: Entry, xyear
 using RecipesBase: AbstractPlot, @recipe, @series, @shorthands
 
-@recipe function f(::Type{Val{:experimental}}, plt::AbstractPlot; ref=nothing, n_authors=1)
+@recipe function f(
+    ::Type{Val{:experimentaldata}}, plt::AbstractPlot; ref=nothing, n_authors=1
+)
     label = if ref isa Entry
         join((truncate_authors(ref, n_authors), xyear(ref)), ", ")
     else
@@ -16,7 +18,7 @@ using RecipesBase: AbstractPlot, @recipe, @series, @shorthands
     label --> label
     return ()
 end
-@shorthands experimental
+@shorthands experimentaldata
 
 @recipe function f(::Type{Val{:theoretical}}, plt::AbstractPlot; ref=nothing, n_authors=1)
     label = if ref isa Entry
