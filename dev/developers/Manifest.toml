@@ -1,6 +1,6 @@
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.12.5"
+julia_version = "1.12.6"
 manifest_format = "2.0"
 project_hash = "eee62a57b758ee41b577f33c3d30a834c9794832"
 
@@ -36,7 +36,7 @@ version = "0.2.20"
 
 [[deps.CitationRecipes]]
 deps = ["Bibliography", "RecipesBase"]
-git-tree-sha1 = "06656e377cee504bc370fc4aba59b47f153bbc88"
+git-tree-sha1 = "fa673d6427297999ae3595a596055c716ded7232"
 repo-rev = "main"
 repo-url = "https://github.com/singularitti/CitationRecipes.jl"
 uuid = "7b9303d0-5a41-456c-9cce-f08875f1ccaf"
@@ -124,9 +124,9 @@ version = "1.7.1"
 
 [[deps.JSON]]
 deps = ["Dates", "Logging", "Parsers", "PrecompileTools", "StructUtils", "UUIDs", "Unicode"]
-git-tree-sha1 = "b3ad4a0255688dcb895a52fafbaae3023b588a90"
+git-tree-sha1 = "67c6f1f085cb2671c93fe34244c9cccde30f7a26"
 uuid = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
-version = "1.4.0"
+version = "1.5.0"
 
     [deps.JSON.extensions]
     JSONArrowExt = ["ArrowTypes"]
@@ -287,9 +287,9 @@ version = "0.3.7"
 
 [[deps.StructUtils]]
 deps = ["Dates", "UUIDs"]
-git-tree-sha1 = "fa95b3b097bcef5845c142ea2e085f1b2591e92c"
+git-tree-sha1 = "aab80fbf866600f3299dd7f6656d80e7be177cfe"
 uuid = "ec057cc2-7a8d-4b58-b3b3-92acb9f63b42"
-version = "2.7.1"
+version = "2.7.2"
 
     [deps.StructUtils.extensions]
     StructUtilsMeasurementsExt = ["Measurements"]
