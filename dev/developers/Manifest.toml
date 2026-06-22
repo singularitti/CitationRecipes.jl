@@ -36,7 +36,7 @@ version = "0.2.20"
 
 [[deps.CitationRecipes]]
 deps = ["Bibliography", "RecipesBase"]
-git-tree-sha1 = "d244c3009ebd3aecff64eebc635cc23cb2409a3a"
+git-tree-sha1 = "3c1e289355cbcd393464ebe71b46fcb7f269052a"
 repo-rev = "main"
 repo-url = "https://github.com/singularitti/CitationRecipes.jl"
 uuid = "7b9303d0-5a41-456c-9cce-f08875f1ccaf"
@@ -148,9 +148,9 @@ version = "1.5.0"
 
 [[deps.JuliaFormatter]]
 deps = ["CommonMark", "Glob", "JuliaSyntax", "PrecompileTools", "TOML", "Test"]
-git-tree-sha1 = "06e46b7d8a11c02387a342a2c4654161d3799416"
+git-tree-sha1 = "758f33f3bf5767fcbd6233a12ebfbaad09dcb7b4"
 uuid = "98e50ef6-434e-11e9-1051-2b60c6c9e899"
-version = "2.6.7"
+version = "2.9.3"
 
 [[deps.JuliaSyntax]]
 git-tree-sha1 = "0d4b3dab95018bcf3925204475693d9f09dc45b8"
@@ -226,9 +226,9 @@ version = "1.8.2"
 
 [[deps.Parsers]]
 deps = ["Dates", "PrecompileTools", "UUIDs"]
-git-tree-sha1 = "468dbe2b510c876dc091b2c74ed52c7c34f48b9b"
+git-tree-sha1 = "32a4e09c5f29402573d673901778a0e03b0807b9"
 uuid = "69de0a69-1ddd-5017-9359-2bf0b02dc9f0"
-version = "2.8.5"
+version = "2.8.6"
 
 [[deps.Pkg]]
 deps = ["Artifacts", "Dates", "Downloads", "FileWatching", "LibGit2", "Libdl", "Logging", "Markdown", "Printf", "Random", "SHA", "TOML", "Tar", "UUIDs", "p7zip_jll"]
